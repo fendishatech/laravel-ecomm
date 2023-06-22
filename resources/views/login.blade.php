@@ -2,7 +2,8 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-4 mx-auto mt-4">
-            <form action="" method="post">
+            <form action="/login" method="post">
+                @csrf
                 <div class="mb-3">
                     <label for="username" class="form-label">Username</label>
                     <input
